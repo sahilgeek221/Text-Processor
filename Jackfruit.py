@@ -1,14 +1,3 @@
-"""
-combined_text_tools.py
-A single Tkinter GUI app that provides:
-  1) Word frequency from a user-specified text file (filename variable / file chooser)
-  2) Palindrome checker (handles punctuation and spaces)
-  3) Caesar cipher (encrypt & decrypt)
-
-Run:
-    python combined_text_tools.py
-"""
-
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import string
@@ -234,3 +223,4 @@ class App(tk.Tk):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
+
