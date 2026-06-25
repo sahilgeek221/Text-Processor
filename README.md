@@ -1,44 +1,22 @@
 # Text-Processor
-A Python Tkinter desktop app combining three text tools in one: a word-frequency analyzer with file browsing, a palindrome checker that ignores punctuation and case, and a Caesar cipher for encrypting/decrypting text. Simple, beginner-friendly, and easy to run.
-A Python + Tkinter Desktop Application
 
-This project is a simple, beginner-friendly desktop app built using Python and Tkinter.
-It combines three commonly used text-processing utilities into one clean interface:
+A modern Python desktop application built with CustomTkinter, combining three powerful text utilities into one sleek, dark-mode compatible interface. Simple, beginner-friendly, and highly performant.
 
-🔹 Word Frequency Analyzer
+### 📝 About the Project
+This project upgrades standard text-processing utilities with a clean, responsive GUI. It features smart regex-based text parsing and handles large files gracefully without freezing.
 
-Select any text file using the built-in file browser.
-The app reads the file, cleans the text, and displays a sorted list of word frequencies.
+### ✨ Features
+* **Word Frequency Analyzer**
+  Select any text file using the built-in file browser. The app reads the file, smartly extracts words (preserving contractions like "don't" using regex), and displays a clean tabular list of the top 1,000 most frequent words.
+* **Palindrome Checker**
+  Enter any sentence or phrase to check if it reads the same forwards and backwards—automatically ignoring spaces, punctuation, and case sensitivity.
+* **Caesar Cipher Tool**
+  Encrypt or decrypt text using a customizable shift value. Letters are safely rotated mathematically while punctuation and spaces are perfectly preserved.
+* **Modern UI**
+  Built with CustomTkinter for a native look, rounded corners, and system-synced dark/light mode.
 
-🔹 Palindrome Checker
-
-Enter any sentence or phrase and check if it’s a palindrome—ignoring spaces, punctuation, and case.
-
-🔹 Caesar Cipher Tool
-
-Encrypt or decrypt text using a customizable shift value.
-Letters are safely rotated while punctuation and spaces are preserved.
-
-**Features**
-
-. Browse-only file selection
-
-. Works with files anywhere on your PC
-
-. Clean and responsive Tkinter UI
-
-. Beginner-friendly code structure
-
-. No external libraries required—just Python
-
-. Three tools combined into one project
-
-**Tech Stack**
-
-. Python 3.x
-
-. Tkinter (built-in GUI library)
-
-. collections.Counter
-
-. Basic string handling utilities
+### 🛠 Tech Stack
+* **Python 3.x**
+* **CustomTkinter** (Modern GUI framework)
+* **re** (Regex for advanced word boundary parsing)
+* **collections.Counter** (High-performance counting)
